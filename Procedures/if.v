@@ -6,7 +6,7 @@ module top_module(
     output wire out_assign,
     output reg out_always   ); 
     always@(*)begin
-        if(sel_b1&&sel_b1)begin
+        if(sel_b1&&sel_b2)begin
             out_always = b;
         end
         else begin
